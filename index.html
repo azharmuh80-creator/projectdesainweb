@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RODAX Marketplace, Partners and About">
+  <title>RODAX — Marketplace & Partnership</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="navbar" id="top">
+    <a class="logo" href="#home">RODAX</a>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#marketplace">Marketplace</a>
+      <a href="#partners">Partners</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="page home-page">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">RODAX COLLECTION</p>
+          <h1>Build your<br><span>next experience.</span></h1>
+          <p class="hero-text">
+            Temukan produk pilihan, partner kreatif, dan pengalaman digital
+            yang dirancang untuk membuat brand kamu berkembang.
+          </p>
+          <a href="#marketplace" class="btn btn-dark">Explore Marketplace →</a>
+        </div>
+
+        <div class="hero-art">
+          <div class="floating-card card-one">RODAX</div>
+          <div class="shape shape-triangle"></div>
+          <div class="shape shape-star">✦</div>
+          <div class="shape shape-square"></div>
+          <div class="floating-card card-two">01 / 04</div>
+        </div>
+
+        <div class="slider-arrows">
+          <button data-slide="-1">←</button>
+          <button data-slide="1">→</button>
+        </div>
+      </div>
+
+      <div class="section-heading compact-heading">
+        <div>
+          <span class="eyebrow">FEATURED</span>
+          <h2>Selected for you.</h2>
+        </div>
+        <a href="#marketplace" class="text-link">View all →</a>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image product-visual visual-a"><span>01</span></div>
+          <span class="category">DIGITAL</span>
+          <h3>RDX Starter Kit</h3>
+          <p>Tools sederhana untuk memulai project digital kamu.</p>
+        </article>
+        <article class="product-card">
+          <div class="product-image product-visual visual-b"><span>02</span></div>
+          <span class="category">HARDWARE</span>
+          <h3>RDX NFC Card</h3>
+          <p>Hubungkan pelanggan ke pengalaman digital hanya dengan satu tap.</p>
+        </article>
+        <article class="product-card">
+          <div class="product-image product-visual visual-c"><span>03</span></div>
+          <span class="category">BRANDING</span>
+          <h3>Brand Pack</h3>
+          <p>Identitas visual minimalis untuk bisnis modern.</p>
+        </article>
+        <article class="product-card">
+          <div class="product-image product-visual visual-d"><span>04</span></div>
+          <span class="category">SERVICE</span>
+          <h3>Growth Session</h3>
+          <p>Konsultasi singkat untuk menemukan arah project berikutnya.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- MARKETPLACE -->
+    <section id="marketplace" class="page marketplace-page dark-page">
+      <div class="market-header">
+        <div>
+          <span class="eyebrow">02 — MARKETPLACE</span>
+          <h2>Find something<br><span>worth building.</span></h2>
+        </div>
+        <p>
+          Jelajahi koleksi produk dan layanan RODAX. Gunakan filter untuk
+          menemukan sesuatu yang paling sesuai dengan kebutuhanmu.
+        </p>
+      </div>
+
+      <div class="market-controls">
+        <div class="filter-group">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="digital">Digital</button>
+          <button class="filter" data-filter="hardware">Hardware</button>
+          <button class="filter" data-filter="service">Service</button>
+        </div>
+
+        <div class="market-search">
+          <input id="marketSearch" type="search" placeholder="Search products...">
+          <span>⌕</span>
+        </div>
+      </div>
+
+      <div class="market-grid" id="marketGrid">
+        <article class="market-card" data-category="digital" data-name="RDX UI Kit">
+          <div class="market-image m1"><span>UI / 01</span></div>
+          <div class="market-meta"><span>Digital</span><b>→</b></div>
+          <h3>RDX UI Kit</h3>
+          <p>Komponen interface untuk project web modern.</p>
+          <strong>Explore product</strong>
+        </article>
+
+        <article class="market-card" data-category="hardware" data-name="RDX NFC Card">
+          <div class="market-image m2"><span>NFC / 02</span></div>
+          <div class="market-meta"><span>Hardware</span><b>→</b></div>
+          <h3>RDX NFC Card</h3>
+          <p>Kartu NFC yang dapat diarahkan ke halaman digital pilihanmu.</p>
+          <strong>Explore product</strong>
+        </article>
+
+        <article class="market-card" data-category="service" data-name="Brand Consultation">
+          <div class="market-image m3"><span>BRAND / 03</span></div>
+          <div class="market-meta"><span>Service</span><b>→</b></div>
+          <h3>Brand Consultation</h3>
+          <p>Sesi strategi untuk menyusun identitas dan arah brand.</p>
+          <strong>Explore product</strong>
+        </article>
+
+        <article class="market-card" data-category="digital" data-name="Landing Page">
+          <div class="market-image m4"><span>WEB / 04</span></div>
+          <div class="market-meta"><span>Digital</span><b>→</b></div>
+          <h3>Landing Page</h3>
+          <p>Landing page clean dan responsif untuk memperkenalkan bisnis.</p>
+          <strong>Explore product</strong>
+        </article>
+
+        <article class="market-card" data-category="hardware" data-name="Smart Tag">
+          <div class="market-image m5"><span>TAG / 05</span></div>
+          <div class="market-meta"><span>Hardware</span><b>→</b></div>
+          <h3>Smart Tag</h3>
+          <p>Tag kecil untuk menghubungkan produk fisik dengan dunia digital.</p>
+          <strong>Explore product</strong>
+        </article>
+
+        <article class="market-card" data-category="service" data-name="Growth Session">
+          <div class="market-image m6"><span>GROW / 06</span></div>
+          <div class="market-meta"><span>Service</span><b>→</b></div>
+          <h3>Growth Session</h3>
+          <p>Diskusi fokus untuk mengembangkan ide menjadi langkah nyata.</p>
+          <strong>Explore product</strong>
+        </article>
+      </div>
+
+      <div class="empty-state" id="emptyState">Produk tidak ditemukan.</div>
+    </section>
+
+    <!-- PARTNERS -->
+    <section id="partners" class="page partnership-page">
+      <div class="partners-intro">
+        <div>
+          <span class="eyebrow">03 — PARTNERS</span>
+          <h2>Good things happen<br><span>when we connect.</span></h2>
+        </div>
+        <p>
+          Kami percaya partnership terbaik bukan sekadar logo di halaman,
+          tetapi kolaborasi yang menghasilkan sesuatu yang bernilai.
+        </p>
+      </div>
+
+      <div class="partner-feature">
+        <div class="partner-feature-visual">
+          <span>RODAX × YOU</span>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit-core">✦</div>
+        </div>
+
+        <div class="partner-feature-copy">
+          <span class="number">01</span>
+          <h3>Build together.</h3>
+          <p>
+            Dari ide kecil sampai project besar, kami membuka ruang untuk
+            creator, bisnis, komunitas, dan brand yang ingin berkembang bersama.
+          </p>
+          <a href="#about" class="btn btn-outline">Become a partner →</a>
+        </div>
+      </div>
+
+      <div class="partner-list">
+        <article class="partner-row">
+          <span>01</span><strong>Creative Studio</strong><em>Design × Strategy</em><b>↗</b>
+        </article>
+        <article class="partner-row">
+          <span>02</span><strong>Technology Partner</strong><em>Product × Innovation</em><b>↗</b>
+        </article>
+        <article class="partner-row">
+          <span>03</span><strong>Local Business</strong><em>Community × Growth</em><b>↗</b>
+        </article>
+        <article class="partner-row">
+          <span>04</span><strong>Independent Creator</strong><em>Content × Culture</em><b>↗</b>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="page about-page dark-page">
+      <div class="about-top">
+        <span class="eyebrow">04 — ABOUT RODAX</span>
+        <h2>We turn simple ideas<br>into <span>real experiences.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-number">R / 04</div>
+        <div class="about-copy">
+          <p class="lead">
+            RODAX adalah ruang untuk produk, teknologi, desain, dan kolaborasi.
+            Kami membuat pengalaman yang terasa sederhana, tetapi punya tujuan
+            yang jelas.
+          </p>
+          <p>
+            Kami memadukan pendekatan visual yang bersih dengan teknologi yang
+            mudah digunakan. Mulai dari hardware kecil, website, branding,
+            hingga partnership — semuanya dibuat untuk membantu ide bergerak.
+          </p>
+
+          <div class="stats">
+            <div><strong>06+</strong><span>Products</span></div>
+            <div><strong>04</strong><span>Services</span></div>
+            <div><strong>∞</strong><span>Ideas</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-cta">
+        <div>
+          <span class="eyebrow">HAVE AN IDEA?</span>
+          <h3>Let's make it real.</h3>
+        </div>
+        <a class="btn btn-light" href="mailto:hello@rodax.id">hello@rodax.id ↗</a>
+      </div>
+
+      <footer class="footer">
+        <span>© 2026 RODAX</span>
+        <div>
+          <a href="#home">Instagram</a>
+          <a href="#home">LinkedIn</a>
+          <a href="#top">Back to top ↑</a>
+        </div>
+      </footer>
+    </section>
+
+    <!-- HARDWARE -->
+    <section class="page hardware-page">
+      <div class="hardware-hero">
+        <div class="hero-art">
+          <div class="shape shape-triangle"></div>
+          <div class="shape shape-star">✦</div>
+          <div class="shape shape-square"></div>
+        </div>
+        <div class="dots"><span></span><span></span><span></span><span></span></div>
+      </div>
+
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">HARDWARE</span>
+          <h2>Physical products.</h2>
+        </div>
+        <span>Explore →</span>
+      </div>
+
+      <div class="hardware-products">
+        <div class="mini-product"><span>▲ ✦ ■</span><b>NFC Card</b></div>
+        <div class="mini-product"><span>▲ ✦ ■</span><b>Smart Tag</b></div>
+        <div class="mini-product"><span>▲ ✦ ■</span><b>Display Kit</b></div>
+        <div class="mini-product"><span>▲ ✦ ■</span><b>Custom Pack</b></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
